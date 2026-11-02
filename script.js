@@ -18,6 +18,11 @@
         const match = panel.dataset.panelView === id;
         panel.hidden = !match;
       });
+      tab.classList.remove("is-pressed");
+      // restart tap animation
+      void tab.offsetWidth;
+      tab.classList.add("is-pressed");
+      window.setTimeout(() => tab.classList.remove("is-pressed"), 400);
     });
   });
 })();
