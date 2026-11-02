@@ -193,6 +193,8 @@ button, input { font: inherit; }
   height: 520px;
   display: grid;
   place-items: center;
+  transform: translateX(28px);
+  overflow: visible;
 }
 
 .orbit {
@@ -210,9 +212,10 @@ button, input { font: inherit; }
 }
 
 .hero-glasses {
-  width: min(240px, 48%);
+  width: min(220px, 44%);
   position: relative;
   z-index: 2;
+  margin: 0 0 72px 0;
   filter: drop-shadow(0 20px 40px rgba(35, 131, 226, 0.25));
   animation: float 5.5s ease-in-out infinite;
 }
@@ -220,8 +223,8 @@ button, input { font: inherit; }
 .hero-robot {
   position: absolute;
   width: min(340px, 78%);
-  bottom: 4%;
-  right: 0;
+  bottom: 0;
+  right: -64px;
   z-index: 1;
   padding: 0;
   border-radius: 0;
