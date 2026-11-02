@@ -3,17 +3,18 @@
 dmg-raw.bin
 dmg-stream1.bin
 
-# Huge extracted app bundles — keep only curated assets/
-ormino-site/dmg-extract/
-ormino-site/dmg-mount/
-ormino-site/zip-extract/
-ormino-site/assets/app/_preview_*
+# Huge extracted app bundles
+ormino-site/
+dmg-extract/
+dmg-mount/
+zip-extract/
+assets/app/_preview_*
 
 # Local secrets
 deploy_keys/
 *.pem
 id_ed25519*
 
-# Research / reference media (not part of the site)
+# Research / reference media
 案例视频/
 调研/
