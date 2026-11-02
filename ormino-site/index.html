@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ormino.AI — Where design thinking takes shape</title>
+  <meta name="description" content="Ormino.AI is a multi-agent platform for human–AI collaborative design learning. Make design thinking visible, participatory, and editable." />
+  <link rel="icon" href="assets/app/tt-agent-avatar-BPQWzxlV.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="nav-brand" href="#top" aria-label="Ormino.AI home">
+      <img src="assets/app/tt-agent-avatar-BPQWzxlV.png" alt="" width="28" height="28" />
+      <span>Ormino<span class="dot">.AI</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#product">Product</a>
+      <a href="#methods">Methods</a>
+      <a href="#editions">Editions</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="link-quiet" href="#access">Log in</a>
+      <a class="btn btn-primary" href="#access">Get early access</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="brand-mark">Ormino<span>.AI</span></p>
+        <h1>Where design thinking<br />takes shape.</h1>
+        <p class="lede">
+          A multi-agent platform for human–AI collaborative design learning.
+          Think ideas through, make them real, and keep needs, evidence, choices, and work connected.
+        </p>
+        <p class="claim" lang="zh-Hans">让每一个创意，都有思考的深度。</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#access">Try for free</a>
+          <a class="btn btn-secondary" href="#product">See how it works</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="badge badge-red">
+          <img src="assets/app/skill-icon-orange-DJkbL1lw.svg" alt="" />
+        </div>
+        <div class="badge badge-yellow">
+          <img src="assets/app/skill-icon-green-Dw29PHli.svg" alt="" />
+        </div>
+        <div class="badge badge-blue">
+          <img src="assets/app/skill-icon-blue-DdTcMsFr.svg" alt="" />
+        </div>
+        <img class="hero-glasses" src="assets/app/login-logo.svg" alt="" />
+        <img class="hero-robot" src="assets/app/lb_robot_transparent.png" alt="" />
+      </div>
+    </section>
+
+    <section class="trust">
+      <p>Trusted in classrooms and studios across Asia</p>
+      <div class="trust-strip">
+        <img src="assets/tt/product-ui-alt.png" alt="Partner institutions and teams" />
+      </div>
+      <ul class="stats">
+        <li><strong>20,000+</strong><span>registered learners</span></li>
+        <li><strong>150+</strong><span>expert methods authorized</span></li>
+        <li><strong>30+</strong><span>university partners</span></li>
+        <li><strong>10+</strong><span>enterprise design teams</span></li>
+      </ul>
+    </section>
+
+    <section class="feature-nav" id="product">
+      <button class="feature-tab is-active" data-panel="agents" type="button">
+        <span class="ft-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l2.2 4.5L19 9l-4 3.1L16.4 17 12 14.6 7.6 17 9 12.1 5 9l4.8-1.5L12 3z"/></svg>
+        </span>
+        Agents
+      </button>
+      <button class="feature-tab" data-panel="canvas" type="button">
+        <span class="ft-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M7 14l3-3 3 2 4-5"/></svg>
+        </span>
+        Reasoning canvas
+      </button>
+      <button class="feature-tab" data-panel="skills" type="button">
+        <span class="ft-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 4h8v4H8zM6 12h12v8H6zM10 8v4M14 8v4"/></svg>
+        </span>
+        Skills
+      </button>
+      <button class="feature-tab" data-panel="arti" type="button">
+        <span class="ft-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="3"/><path d="M5 19c1.5-3 4-4.5 7-4.5S17.5 16 19 19"/></svg>
+        </span>
+        Personal agent
+      </button>
+    </section>
+
+    <section class="preview-stage">
+      <div class="preview-panel" data-panel-view="agents">
+        <img src="assets/app/login-decor-BAhOORr7.png" alt="Ormino workspace with expert agents and design skills" />
+      </div>
+      <div class="preview-panel" data-panel-view="canvas" hidden>
+        <img src="assets/app/sence2-DrAqrFa8.png" alt="Collaborative design reasoning on a shared board" />
+      </div>
+      <div class="preview-panel" data-panel-view="skills" hidden>
+        <img src="assets/app/sence3-JpTGFBcP.png" alt="Reusable design methods and skills" />
+      </div>
+      <div class="preview-panel" data-panel-view="arti" hidden>
+        <img class="arti-shot" src="assets/arti-panel.jpg" alt="Arti personal agent settings and autonomous capabilities" />
+      </div>
+    </section>
+
+    <section class="split" id="methods">
+      <div class="split-copy">
+        <h2>Your agent team keeps judgment in the loop.</h2>
+        <p>
+          Configure specialists around one design problem. They bring different perspectives;
+          your taste, preferences, and choices decide where the work goes.
+        </p>
+        <a class="text-link" href="#access">Meet the agents →</a>
+      </div>
+      <div class="split-media tone-peach">
+        <img src="assets/tt/avatar-a2.png" alt="Expert agent avatar" />
+        <img class="overlap" src="assets/tt/avatar-b2.png" alt="Second expert agent avatar" />
+      </div>
+    </section>
+
+    <section class="split reverse">
+      <div class="split-copy">
+        <h2>A reasoning graph you can edit.</h2>
+        <p>
+          Goals, needs, references, creative branches, and decisions stay linked — with sources and context.
+          Branch an idea, merge two concepts, and connect images back to the discussion that shaped them.
+        </p>
+        <a class="text-link" href="#access">Explore the canvas →</a>
+      </div>
+      <div class="split-media tone-ink">
+        <img src="assets/app/sence7-Cl9oAHlw.png" alt="Design process materials and direction board" />
+      </div>
+    </section>
+
+    <section class="split">
+      <div class="split-copy">
+        <h2>Workflows you nail become Skills.</h2>
+        <p>
+          Capture the methods that work — research, critique, proposal structure — and call them when they fit.
+          Expertise shows up as task quality, not titles on a wall.
+        </p>
+        <a class="text-link" href="#access">Browse methods →</a>
+      </div>
+      <div class="split-media tone-sky">
+        <div class="skill-grid">
+          <img src="assets/app/skill-icon-blue-DdTcMsFr.svg" alt="" />
+          <img src="assets/app/skill-icon-green-Dw29PHli.svg" alt="" />
+          <img src="assets/app/skill-icon-orange-DJkbL1lw.svg" alt="" />
+          <img src="assets/app/skill-icon-purple-WMD0vNJE.svg" alt="" />
+        </div>
+        <img class="skill-hero" src="assets/app/event-card-BFJqiC0R.png" alt="Skill and event cards from Ormino" />
+      </div>
+    </section>
+
+    <section class="split reverse">
+      <div class="split-copy">
+        <h2>Arti learns how you design.</h2>
+        <p>
+          Tell it what you refuse. Let it learn from past projects. Turn on canvas check-ups,
+          memory, and self-evolving skills — so you stop repeating yourself.
+        </p>
+        <a class="text-link" href="#access">Set up Arti →</a>
+      </div>
+      <div class="split-media tone-dark">
+        <img class="arti-full" src="assets/arti-panel.jpg" alt="Arti agent configuration panel" />
+      </div>
+    </section>
+
+    <section class="process">
+      <h2>From unclear brief to a direction you can explain.</h2>
+      <p class="section-lede">One project. One continuous trail of thinking.</p>
+      <ol class="process-steps">
+        <li>
+          <span>01</span>
+          <h3>Clarify</h3>
+          <p>Surface goals, conflicts, and constraints before you commit to a look.</p>
+        </li>
+        <li>
+          <span>02</span>
+          <h3>Explore</h3>
+          <p>Keep references, research, and alternative directions on one canvas.</p>
+        </li>
+        <li>
+          <span>03</span>
+          <h3>Make</h3>
+          <p>Turn the chosen direction into work — while the rationale stays attached.</p>
+        </li>
+        <li>
+          <span>04</span>
+          <h3>Present</h3>
+          <p>Bring evidence and choices into the client or critique conversation.</p>
+        </li>
+        <li>
+          <span>05</span>
+          <h3>Improve</h3>
+          <p>Feed feedback back into judgment — and save methods for next time.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="editions" id="editions">
+      <h2>Designed for learning and practice.</h2>
+      <div class="edition-grid">
+        <article>
+          <img src="assets/app/sence1-LNh1VVSS.png" alt="" />
+          <h3>Education edition</h3>
+          <p>Help teachers guide projects and students show, discuss, and revise their thinking.</p>
+        </article>
+        <article>
+          <img src="assets/app/sence4-wV23NT6a.png" alt="" />
+          <h3>Practice edition</h3>
+          <p>From client brief to directions, proposals, and revisions — without losing the why.</p>
+        </article>
+        <article>
+          <img src="assets/tt/product-ui.png" alt="" />
+          <h3>Shared foundation</h3>
+          <p>Needs, evidence, choices, and creative work stay connected inside every project.</p>
+        </article>
+        <article>
+          <img src="assets/app/home-bg-BJmzcZ7K.png" alt="" />
+          <h3>Human final say</h3>
+          <p>Agents explore. People decide. Taste and critique remain the source of direction.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="positioning">
+      <div class="positioning-inner">
+        <img src="assets/app/tt-agent-avatar-BPQWzxlV.png" alt="" width="72" height="72" />
+        <h2>Not another AI term. A clearer place to stand.</h2>
+        <p>
+          Ormino.AI is a multi-agent platform for human–AI collaborative design learning —
+          so proposals grow with the thinking, and people leave a project able to explain what they learned.
+        </p>
+        <p class="claim" lang="zh-Hans">让每一个创意，都有思考的深度。</p>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <h2>Questions &amp; answers</h2>
+      <details open>
+        <summary>What is Ormino.AI?</summary>
+        <p>
+          A human–AI collaborative design workspace that makes design thinking visible, participatory, and editable.
+          Users set goals; agents contribute perspectives; people keep judgment in control.
+        </p>
+      </details>
+      <details>
+        <summary>How is this different from image or canvas tools?</summary>
+        <p>
+          Midjourney, FLORA, Figma, and Gamma are strong at generation, canvases, and presentations.
+          Ormino focuses on the stretch that often breaks: connecting needs, evidence, trade-offs, and human judgment
+          into a decision structure you can return to and revise.
+        </p>
+      </details>
+      <details>
+        <summary>Who is it for?</summary>
+        <p>
+          Design students and teachers in the Education edition; independent designers and studios in the Practice edition.
+          The shared base keeps project rationale intact in both rhythms.
+        </p>
+      </details>
+      <details>
+        <summary>Is Ormino available now?</summary>
+        <p>
+          Built from the TT DesignX private-beta desktop product (macOS &amp; Windows). Web and mobile are in development.
+          Overseas early access opens first through DesignX and partner pilots.
+        </p>
+      </details>
+    </section>
+
+    <section class="cta" id="access">
+      <div class="cta-card">
+        <div>
+          <h2>Bring your next brief.</h2>
+          <p>Get early access to Ormino.AI — and keep the thinking that makes the work yours.</p>
+        </div>
+        <form class="cta-form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Request received';">
+          <label class="sr-only" for="email">Email</label>
+          <input id="email" type="email" required placeholder="you@school.or.studio" />
+          <button class="btn btn-primary" type="submit">Request access</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand">
+      <img src="assets/app/tt-logo-N7us-IWw.png" alt="" width="28" height="28" />
+      <div>
+        <strong>Ormino.AI</strong>
+        <span>Where design thinking takes shape.</span>
+      </div>
+    </div>
+    <div class="footer-cols">
+      <div>
+        <h4>Product</h4>
+        <a href="#product">Agents</a>
+        <a href="#methods">Canvas</a>
+        <a href="#editions">Editions</a>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="#">About</a>
+        <a href="#">Security</a>
+        <a href="#">Contact</a>
+      </div>
+      <div>
+        <h4>From</h4>
+        <a href="https://ttagent.cn/" target="_blank" rel="noreferrer">TT Design Agent</a>
+        <span>MeaningX · DesignX applicant</span>
+      </div>
+    </div>
+    <p class="legal">© 2026 Ormino.AI · Visual assets from TT Design Agent 1.0.2</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
