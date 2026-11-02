@@ -474,36 +474,28 @@ button, input { font: inherit; }
   padding: 28px;
 }
 
-.split-media img { border-radius: 16px; width: 100%; height: 100%; object-fit: cover; }
+.split-media img { border-radius: 16px; }
 .tone-peach { background: var(--peach); }
-.tone-sky { background: #0f1115; padding: 0; }
-.tone-sky img { border-radius: 0; min-height: 380px; }
-.tone-editorial {
-  background: #121212;
-  padding: 18px;
-}
-.tone-editorial > img:first-child {
-  width: 78%;
+.tone-peach > img:first-child {
+  width: min(280px, 70%);
   height: auto;
-  max-height: 420px;
-  justify-self: start;
-  border-radius: 18px;
+  object-fit: contain;
 }
+.tone-sky { background: #0f1115; padding: 0; }
+.tone-sky img { border-radius: 0; width: 100%; height: 100%; min-height: 380px; object-fit: cover; object-position: center top; }
 .tone-ink { background: #111; padding: 0; }
-.tone-ink img { border-radius: 0; width: 100%; height: 100%; object-fit: cover; min-height: 380px; }
+.tone-ink img { border-radius: 0; width: 100%; height: 100%; object-fit: cover; object-position: center top; min-height: 380px; }
 .tone-dark { background: #0e0e0e; padding: 18px; }
 
 .split-media .overlap {
   position: absolute;
-  width: 44%;
-  right: 8%;
-  bottom: 10%;
+  width: 42%;
+  right: 10%;
+  bottom: 12%;
   border: 4px solid #fff;
   border-radius: 16px;
   box-shadow: var(--shadow);
   object-fit: cover;
-  aspect-ratio: 3 / 4;
-  height: auto;
 }
 
 .skill-hero {
