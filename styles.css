@@ -417,9 +417,10 @@ button, input { font: inherit; }
 
 .preview-panel img {
   width: 100%;
-  max-height: 560px;
+  max-height: 620px;
   object-fit: cover;
-  object-position: top center;
+  object-position: center;
+  background: #121212;
 }
 
 @keyframes rise {
@@ -473,42 +474,49 @@ button, input { font: inherit; }
   padding: 28px;
 }
 
-.split-media img { border-radius: 16px; }
+.split-media img { border-radius: 16px; width: 100%; height: 100%; object-fit: cover; }
 .tone-peach { background: var(--peach); }
-.tone-sky { background: var(--sky); }
+.tone-sky { background: #0f1115; padding: 0; }
+.tone-sky img { border-radius: 0; min-height: 380px; }
+.tone-editorial {
+  background: #121212;
+  padding: 18px;
+}
+.tone-editorial > img:first-child {
+  width: 78%;
+  height: auto;
+  max-height: 420px;
+  justify-self: start;
+  border-radius: 18px;
+}
 .tone-ink { background: #111; padding: 0; }
-.tone-ink img { border-radius: 0; width: 100%; height: 100%; object-fit: cover; min-height: 360px; }
+.tone-ink img { border-radius: 0; width: 100%; height: 100%; object-fit: cover; min-height: 380px; }
 .tone-dark { background: #0e0e0e; padding: 18px; }
 
 .split-media .overlap {
   position: absolute;
-  width: 42%;
-  right: 10%;
-  bottom: 12%;
+  width: 44%;
+  right: 8%;
+  bottom: 10%;
   border: 4px solid #fff;
+  border-radius: 16px;
   box-shadow: var(--shadow);
-}
-
-.skill-grid {
-  position: absolute;
-  top: 18px; left: 18px;
-  display: grid;
-  grid-template-columns: repeat(2, 48px);
-  gap: 8px;
-  z-index: 2;
-}
-
-.skill-grid img {
-  width: 48px; height: 48px;
-  background: #fff;
-  border-radius: 12px;
-  padding: 8px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  object-fit: cover;
+  aspect-ratio: 3 / 4;
+  height: auto;
 }
 
 .skill-hero {
   width: min(420px, 100%);
   margin-top: 36px;
+}
+.skill-hero.is-full {
+  width: 100%;
+  height: 100%;
+  min-height: 380px;
+  margin: 0;
+  border-radius: 0;
+  object-fit: cover;
 }
 
 /* Process */
@@ -602,7 +610,7 @@ button, input { font: inherit; }
 
 .edition-grid img {
   width: 100%;
-  height: 190px;
+  height: 220px;
   object-fit: cover;
   background: #111;
 }
